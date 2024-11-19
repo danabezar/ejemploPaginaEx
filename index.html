@@ -8,7 +8,7 @@
 </head>
 <body>
     <aside id="asideLogo">
-        <p>Aquí hay un logo pero no</p>
+        <img src="logo.png" alt="" id="imgLogo">
     </aside>
     <div class="contenido">
         <header id="cabecera">
@@ -16,11 +16,12 @@
                 <img src="" alt="" id="imgBuscador">
                 <search>
                     <form action="">
-                        <input type="text" name="" id="" placeholder="Testo">
+                        <input type="text" name="" id="" placeholder="Búsqueda...">
+                        <button type="submit">Buscar</button>
                     </form>
                 </search>
             </div>
-            <img src="" alt="" id="imgBanner">
+            <img src="playa.jpeg" alt="" id="imgBanner">
             <nav>
                 <ul>
                     <li><a href="#">Enlace1</a></li>
@@ -30,14 +31,63 @@
             </nav>
         </header>
         <main>
-            
+            <section>
+                <article>
+                    <img src="imgArticulo.jpg" alt="" id="imgArticulo">
+                    <div class="contenidoArticulo">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quos, in dolorem tenetur aliquam perspiciatis odit, quia saepe, nobis consequatur provident debitis dolor repellendus illo exercitationem quis quae fuga? Obcaecati?</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="imgArticulo.jpg" alt="" id="imgArticulo">
+                    <div class="contenidoArticulo">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, ex, non voluptatibus error magnam, expedita sit voluptatum et exercitationem possimus iusto voluptate? Aut sit fugit architecto dignissimos quisquam! Praesentium, optio?</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="imgArticulo.jpg" alt="" id="imgArticulo">
+                    <div class="contenidoArticulo">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ratione pariatur sequi delectus accusantium adipisci reprehenderit perferendis id. Expedita explicabo dolorem animi. Deleniti, laborum cum fugit officiis autem nulla vero.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="imgArticulo.jpg" alt="" id="imgArticulo">
+                    <div class="contenidoArticulo">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, libero. Omnis eum, fugit perferendis aspernatur est quas velit rem tenetur. Officia molestias voluptas velit cupiditate vel quod et eius delectus.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="imgArticulo.jpg" alt="" id="imgArticulo">
+                    <div class="contenidoArticulo">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, dicta harum consectetur ex iusto, sequi iste dolor assumenda iure, et perferendis eum nisi repudiandae officiis doloremque recusandae error fugiat asperiores?</p>
+                    </div>
+                </article>
+            </section>
         </main>
+        <footer>
+            <p>Sitio creado por Daniel Abellán Zárate | 2024</p>
+        </footer>
     </div>
     <aside id="asideParte2">
         <form>
-            <input type="text" name="nombre" id="formNombre" placeholder="Nonvre">
-            <input type="text" name="pwd" id="formPwd" placeholder="Kontrasenia">
-            <button type="submit">Henbiar</button>
+            <div class="campoFormulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="formNombre" placeholder="Ej. Tomás">
+            </div>
+            <div class="campoFormulario">
+                <label for="pwd">Contraseña</label>
+                <input type="text" name="pwd" id="formPwd" placeholder="Ej. 123">
+            </div>
+            <div class="campoFormulario">
+                <label for="campoAdicional">Adicional</label>
+                <input type="text" name="campoAdicional" id="campoAdicional" placeholder="Ej. Adicional">
+            </div>
+            <button type="submit">Enviar</button>
         </form>
     </aside>
 </body>
